@@ -166,5 +166,16 @@ If no coupon applies, the API returns:
    3. If still tie, lexicographically smaller `code`.
 
 4. Return the best coupon and its computed discount.
+5. ## 5. How to Run Tests
+
+No automated tests are included by default.  
+You can extend this project with your preferred testing framework (e.g., Jest or Mocha) and document the test commands here.
+
+## 6. AI Usage Note
+
+I used an AI assistant (ChatGPT / GPT-5.1 Thinking) to help:
+- Design the API structure and eligibility evaluation logic.
+- Generate the initial implementation of the Express.js server.
+- Draft this README content.
 
 
